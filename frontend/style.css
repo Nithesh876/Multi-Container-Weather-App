@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.25),
+            rgba(0,0,0,0.25)
+        ),
+
+        url('https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?q=80&w=1974&auto=format&fit=crop');
+
+    background-size: cover;
+
+    background-position: center;
+}
+
+/* Main Card */
+
+.container {
+
+    width: 430px;
+
+    padding: 35px;
+
+    border-radius: 25px;
+
+    background: rgba(255,255,255,0.18);
+
+    backdrop-filter: blur(14px);
+
+    box-shadow:
+        0 8px 32px rgba(0,0,0,0.25);
+
+    text-align: center;
+
+    color: white;
+}
+
+/* Heading */
+
+h1 {
+
+    font-size: 34px;
+
+    margin-bottom: 10px;
+
+    text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.subtitle {
+
+    font-size: 15px;
+
+    margin-bottom: 25px;
+
+    opacity: 0.95;
+}
+
+/* Search Section */
+
+.search-box {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-bottom: 25px;
+}
+
+input {
+
+    flex: 1;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    font-size: 16px;
+
+    outline: none;
+
+    background: rgba(255,255,255,0.9);
+}
+
+button {
+
+    padding: 14px 18px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: linear-gradient(
+        135deg,
+        #ff9800,
+        #ff5722
+    );
+
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+
+    transform: scale(1.05);
+
+    box-shadow: 0 0 15px rgba(255,152,0,0.6);
+}
+
+/* Result Card */
+
+#result {
+
+    margin-top: 20px;
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    background: rgba(255,255,255,0.12);
+
+    min-height: 150px;
+}
+
+/* Weather Icon */
+
+.weather-icon {
+
+    font-size: 90px;
+
+    margin-bottom: 15px;
+}
+
+/* Temperature */
+
+.temp {
+
+    font-size: 38px;
+
+    font-weight: bold;
+
+    margin: 12px 0;
+}
+
+/* Details */
+
+.details {
+
+    margin-top: 12px;
+
+    line-height: 2;
+
+    font-size: 16px;
+}
