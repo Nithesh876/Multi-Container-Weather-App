@@ -1,4 +1,4 @@
-# Weather DevOps Pipeline
+# Multi Container Weather App
 
 A containerized real-time weather application demonstrating a simple DevOps workflow with Flask, Nginx, Docker Compose, and Jenkins.
 
