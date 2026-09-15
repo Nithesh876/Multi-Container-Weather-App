@@ -46,7 +46,7 @@ weather-devops-project/
 Copy `.env.example` to `.env` and set your OpenWeatherMap API key:
 
 ```env
-OPENWEATHER_API_KEY=your_openweathermap_api_key_here
+OPENWEATHER_API_KEY=<openweathermap_api_key>
 ```
 
 ### 2. Start the application
